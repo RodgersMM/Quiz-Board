@@ -1,0 +1,102 @@
+.js{
+  display:none;
+}
+.oop{
+  display: none;
+}
+ div.flip-control {
+    width: 400px;
+    text-align: center;
+    color: yellow;
+}
+
+div.flip-control a {
+    margin-left: 10px;
+}
+#webbased{
+  color: black;
+  /* background-repeat: no-repeat; */
+  background-image:url("..");
+  background-size: cover;
+}
+#js{
+  background-image: url("..");
+  background-repeat: no-repeat;
+  font color: white;
+  color: white;
+  background-size: cover;
+}
+#Oop{
+  background-image:url("..");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: blue;
+}
+body{
+  background-image: url("../");
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  }
+.jumbotron{
+  text-align: center;
+  margin-top: 25px;
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-bottom: 25px;
+  font-family: 'Fredoka One', cursive;
+}
+a:hover{
+  cursor: pointer;
+  transition-duration: 5s;
+
+}
+.quiz1{
+  display: none;
+}
+
+.quiz2{
+  display: none;
+}
+
+.quiz3{
+  display: none;
+}
+
+.quiz4{
+  display: none;
+}
+#click1{
+  font-size:20px;
+  border-radius:30px;
+  margin-top: 30px;
+  color: blue;
+}
+#click2{
+  font-size:20px;
+  border-radius:30px;
+  margin-top: 30px;
+  color: blue;
+}
+#click3{
+  font-size:20px;
+  border-radius:30px;
+  margin-top: 30px;
+  color: blue;
+}
+#click4{
+  font-size:20px;
+  border-radius:30px;
+  margin-top: 30px;
+  color: blue;
+}
+.submit{
+  font-size:20px;
+  border-radius:30px;
+  margin-top: 30px;
+  color: blue;
+}
+.webbased{
+}
+.scoreboard{
+}
