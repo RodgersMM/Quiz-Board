@@ -1,0 +1,16 @@
+body{
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+p{
+  color:green;
+  font-style:normal;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+h1{
+  color: gold;
+  font-weight: 400;
+  font-style:italic;
+}
