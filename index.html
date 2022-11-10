@@ -7,6 +7,12 @@
      <link href="css/style.css" rel="stylesheet" type="text/css">
      <!-- <script src="js/jquery-3.3.1.js" ></script>
      <script src="js/scripts.js"></script> -->
+     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="js/scripts.js"></script>
+
+
   </head>
   <body>
       <div id="five" class="container">
@@ -26,6 +32,101 @@
         </li>
         <a href="index1.html"><strong><font size="45">Quiz</font></strong></a>
       </div>
+      body background="/home/dennismcrae/javascript-quiz-board/images/irvan-smith-563894-unsplash.jpg" alt="">
+      <div class="container">
+        <form class="html">
+          <div class="webbased">
+            <h1><em><strong>javaScript Quiz Board</strong></em></h1>
+            <P>1. What is JavaScript:<br>
+              <input type="radio" name="answer1" value="5">A programming language<br>
+              <input type="radio" name="answer1" value="0">A library<br>
+              <input type="radio" name="answer1" value="0">A framework<br>
+              <input type="radio" name="answer1" value="0">A Method<br>
+            </p>
+            <P>2. What will console.log do:<br>
+              <input type="radio" name="answer2" value="0">Print value name<br>
+              <input type="radio" name="answer2" value="0">Print value stored in a variable<br>
+              <input type="radio" name="answer2" value="5">Print result in console<br>
+              <input type="radio" name="answer2" value="0">All the above<br>
+            </p>
+            <P>3. Which sign does javascript use for single comment :<br>
+              <input type="radio" name="answer3" value="0">the % sign<br>
+              <input type="radio" name="answer3" value="0">the ? Sign<br>
+              <input type="radio" name="answer3" value="5">the // sign<br>
+              <input type="radio" name="answer3" value="0">the /* sign<br>
+            </p>
+            <P>4. Which javascript sign for start of multiple comments :<br>
+              <input type="radio" name="answer4" value="5">the /* sign<br>
+              <input type="radio" name="answer4" value="0">the ? Sign<br>
+              <input type="radio" name="answer4" value="0">the % sign<br>
+              <input type="radio" name="answer4" value="0">the // sign<br>
+            </p>
+            <input id="submit" type="button" value="Submit">
+            <div class="flip-control">
+              <a href="#home" id="prev"> &#8249; </a>
+              <a href="#js" id="next"> &#8250;</a>
+            </div>
+          </div>
+
+
+          
+          <div class="js">
+            <h1>Javascript</h1>
+            <P>1. What is the other name for Javascript :<br>
+              <input type="radio" name="javascript1" value="0">JS<br>
+              <input type="radio" name="javascript1" value="5">ECMA script<br>
+              <input type="radio" name="javascript1" value="0">Vanila JS<br>
+              <input type="radio" name="javascript1" value="0">All the above<br>
+              <P>2. Select the correct statement :<br>
+                <input type="radio" name="javascript2" value="5">Js is a server-side language<br>
+                <input type="radio" name="javascript2" value="0">Js is used only for web application<br>
+                <input type="radio" name="javascript2" value="0">All the above<br>
+                <input type="radio" name="javascript2" value="0">Js is used to create interactive web pages<br>
+              </p>
+              <P>3. What will console.log do :<br>
+                <input type="radio" name="javascript3" value="5">Print result in console<br>
+                <input type="radio" name="javascript3" value="0">Print value stored in a variable <br>
+                <input type="radio" name="javascript3" value="0">Print value name<br>
+                <input type="radio" name="javascript3" value="0">All the above<br>
+              </p>
+              <input id="submit1" type="button" value="Submit">
+              <div class="flip-control">
+                <a href="#home" id="prev"> &#8249; </a>
+                <a href="#js" id="next"> &#8250;</a>
+              </div>
+          </div>
+          <div class="oop">
+            <h1>Object Oriented programming</h1>
+            <P>1. Is C++ a low level language:<br>
+              <input type="radio" name="question1" value="5">Yes<br>
+              <input type="radio" name="question1" value="0">No<br>
+              <input type="radio" name="question1" value="0">Not Sure<br>
+              <input type="radio" name="question1" value="0">None of the above<br>
+            </p>
+            <P>2. Which jQuery method is used to hide selected elements? :<br>
+              <input type="radio" name="question2" value="0">hidden()<br>
+              <input type="radio" name="question2" value="5">hide()<br>
+              <input type="radio" name="question2" value="0">visible(false)<br>
+              <input type="radio" name="question2" value="0">display(none)<br>
+            </p>
+    
+            <input id="submit2" type="button" value="Submit">
+            <div class="flip-control">
+              <a href="#home" id="prev"> &#8249; </a>
+              <a href="#js" id="next"> &#8250;</a>
+            </div>
+        </form>
+      </div>
+    
+      <div class="scoreboard">
+        <h2>Score Board</h2>
+        <script>
+          $(".scoreboard").html(`<p>Your Score is ${result} out of 45</p>`);
+        </script>
+        <p></p>
+      </div>
+      </div>
+
       <script src="js/jquery-3.3.1.js" ></script>
       <script src="js/scripts.js"></script>
   </body>

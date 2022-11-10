@@ -22,7 +22,7 @@ div.flip-control a {
 #js{
   background-image: url("..");
   background-repeat: no-repeat;
-  font color: white;
+  font-color: white;
   color: white;
   background-size: cover;
 }
